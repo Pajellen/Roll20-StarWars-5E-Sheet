@@ -1893,12 +1893,45 @@
     <input type="hidden" class="powericon_flag" name="attr_powericon_flag" value="all">
     <div class="body">
         <div class="col col1">
+        	<span class="power-labels">
+                <span data-i18n="slots_total-u" style="margin-right: 45px;">FORCE TOTAL</span>
+                <span data-i18n="slots_remaining-u">FORCE REMAINING</span>
+            </span>
+            <div class="power-level">
+                <div class="level">
+                    <span class="label">FP</span>
+                </div>
+
+                <div class="total">
+                    <input type="number" name="attr_power_points_total" value="0">
+                </div>
+                <div class="expended">
+                    <input type="number" name="attr_power_points_expended" value="0">
+                </div>
+            </div>
+            <span class="power-labels">
+                <span data-i18n="slots_total-u" style="margin-right: 45px;">TECH TOTAL</span>
+                <span data-i18n="slots_remaining-u">TECH REMAINING</span>
+            </span>
+            <div class="power-level">
+                <div class="level">
+                    <span class="label">TP</span>
+                </div>
+
+                <div class="total">
+                    <input type="number" name="attr_power_points_total" value="0">
+                </div>
+                <div class="expended">
+                    <input type="number" name="attr_power_points_expended" value="0">
+                </div>
+            </div>
+            <br>
             <div class="power-level">
                 <div class="level">
                     <span class="label">0</span>
                 </div>
                 <div class="cantrips">
-                    <span class="label" data-i18n="cantrips-u">CANTRIPS</span>
+                    <span class="label" data-i18n="cantrips-u">AT-WILL</span>
                 </div>
             </div>
             <div class="power-container">
@@ -1992,11 +2025,11 @@
                                     <span data-i18n="add-ability-mod-u">ADD ABILITY MOD TO DAMAGE OR HEALING</span>
                                 </div>
                                 <div class="row">
-                                    <span data-i18n="cantrip-progression:-u">CANTRIP PROGRESSION</span>
+                                    <span data-i18n="cantrip-progression:-u">AT-WILL PROGRESSION</span>
                                     <select name="attr_power_damage_progression">
                                         <option value="" selected="selected" data-i18n="none-u">NONE</option>
-                                        <option value="Cantrip Dice" data-i18n="cantrip-dice-u">CANTRIP DICE</option>
-                                        <option value="Cantrip Beam" data-i18n="cantrip-beam-u">CANTRIP BEAM</option>
+                                        <option value="Cantrip Dice" data-i18n="cantrip-dice-u">AT-WILL DICE</option>
+                                        <option value="Cantrip Beam" data-i18n="cantrip-beam-u">AT-WILL BEAM</option>
                                     </select>
                                 </div>
                                 <div class="row">
@@ -2066,19 +2099,9 @@
                 </fieldset>
             </div>
 
-            <span class="power-labels">
-                <span data-i18n="slots_total-u" style="margin-right: 45px;">POINTS TOTAL</span>
-                <span data-i18n="slots_remaining-u">POINTS REMAINING</span>
-            </span>
             <div class="power-level">
                 <div class="level">
                     <span class="label">1</span>
-                </div>
-                <div class="total">
-                    <input type="number" name="attr_power_points_total" value="0">
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_power_points_expended" value="0">
                 </div>
             </div>
             <div class="power-container">
