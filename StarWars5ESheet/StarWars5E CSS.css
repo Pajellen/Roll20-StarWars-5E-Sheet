@@ -414,7 +414,7 @@ input[type=radio].sheet-tab-button.sheet-powers + span {
 
 button[type=roll]:hover,
 button[type=roll]:hover *,
-.sheet-powerbutton[type=roll]:hover input[type=text],
+.sheet-power button[type=roll]:hover input[type=text],
 .sheet-action .sheet-display button[type=roll]:hover *
 {
     color: #EC2127;
@@ -554,7 +554,7 @@ button[type=roll] * {
 .sheet-tool input,
 .sheet-proficiencies input,
 .sheet-pc .sheet-traits input,
-.sheet-powerinput,
+.sheet-power input,
 .sheet-options .sheet-body input,
 .sheet-resources input[type=number]
 {
@@ -690,7 +690,7 @@ button[type=roll] * {
 
 .sheet-skill button span,
 .sheet-options .sheet-body .sheet-skill span span,
-.sheet-rolltemplate-power.sheet-grey
+.sheet-rolltemplate-power .sheet-grey
 {
     color: #A0A0A0;
     font-weight: normal;
@@ -1016,7 +1016,7 @@ button[type=roll] * {
 }
 
 .sheet-attacks .sheet-options-flag,
-.sheet-power.sheet-options-flag,
+.sheet-power .sheet-options-flag,
 .sheet-tool .sheet-options-flag,
 .sheet-npc .sheet-npc_options-flag,
 .sheet-pc .sheet-trait .sheet-options-flag,
@@ -1038,7 +1038,7 @@ button[type=roll] * {
 }
 
 .sheet-attacks .sheet-options-flag + span,
-.sheet-power.sheet-options-flag + span,
+.sheet-power .sheet-options-flag + span,
 .sheet-tool .sheet-options-flag + span,
 .sheet-npc .sheet-npc_options-flag + span,
 .sheet-trait .sheet-options-flag + span,
@@ -1071,7 +1071,7 @@ button[type=roll] * {
 }
 
 .sheet-attacks .sheet-options-flag:checked + span,
-.sheet-power.sheet-options-flag:checked + span,
+.sheet-power .sheet-options-flag:checked + span,
 .sheet-tool .sheet-options-flag:checked + span,
 .sheet-npc .sheet-npc_options-flag:checked + span,
 .sheet-trait .sheet-options-flag:checked + span,
@@ -1171,7 +1171,7 @@ button[type=roll] * {
 }
 
 .sheet-attack .sheet-options,
-.sheet-power.sheet-options,
+.sheet-power .sheet-options,
 .sheet-tool .sheet-options,
 .sheet-npc .sheet-npc_options,
 .sheet-trait .sheet-options,
@@ -1208,7 +1208,7 @@ button[type=roll] * {
 }
 
 .sheet-attacks .sheet-options-flag:checked ~ .sheet-options,
-.sheet-power.sheet-options-flag:checked ~ .sheet-options,
+.sheet-power .sheet-options-flag:checked ~ .sheet-options,
 .sheet-tool .sheet-options-flag:checked ~ .sheet-options,
 .sheet-npc .sheet-npc_options-flag:checked ~ .sheet-npc_options,
 .sheet-trait .sheet-options-flag:checked ~ .sheet-options,
@@ -1357,16 +1357,16 @@ button[type=roll] * {
     border-bottom-left-radius: 0px;
 }
 
-.sheet-power{
+.sheet-power {
     margin-bottom: 5px;
     width: 245px;
 }
 
-.sheet-power.sheet-display {
+.sheet-power .sheet-display {
     position: relative;
 }
 
-.sheet-power.sheet-display button[type=roll] 
+.sheet-power .sheet-display button[type=roll] 
 {
     background-color: transparent;
     color: black;
@@ -1384,7 +1384,7 @@ button[type=roll] * {
     text-align: left;
 }
 
-.sheet-power.sheet-display button[type=roll]::before
+.sheet-power .sheet-display button[type=roll]::before
 {
     content: "" !important;
 }
@@ -1405,43 +1405,43 @@ span.sheet-powerconcentration
     line-height: 10px;
 }
 
-.sheet-powericon_flag:not([value="none"]) + .sheet-body .sheet-power.sheet-display .sheet-powerritual:not([value="0"]) ~ span.sheet-powerritual
+.sheet-powericon_flag:not([value="none"]) + .sheet-body .sheet-power .sheet-display .sheet-powerritual:not([value="0"]) ~ span.sheet-powerritual
 {
     display: inline-block;
     right: 11px;
 }
 
-.sheet-powericon_flag:not([value="none"]) + .sheet-body .sheet-power.sheet-display .sheet-powerconcentration:not([value="0"]) ~ span.sheet-powerconcentration
+.sheet-powericon_flag:not([value="none"]) + .sheet-body .sheet-power .sheet-display .sheet-powerconcentration:not([value="0"]) ~ span.sheet-powerconcentration
 {
     border-radius: 100%;
     display: inline-block;
     right: 0;
 }
 
-.sheet-power.sheet-display .sheet-componentscontainer {
+.sheet-power .sheet-display .sheet-componentscontainer {
     position: absolute;
     top: 3px;
     right: 0;
     width: auto;
 }
 
-.sheet-power.sheet-display .sheet-v,
-.sheet-power.sheet-display .sheet-s,
-.sheet-power.sheet-display .sheet-m
+.sheet-power .sheet-display .sheet-v,
+.sheet-power .sheet-display .sheet-s,
+.sheet-power .sheet-display .sheet-m
 {
     display: none;
 }
 
-.sheet-powericon_flag[value="all"] + .sheet-body .sheet-power.sheet-display input.sheet-v:not([value="0"]) ~ .sheet-componentscontainer span.sheet-v, 
-.sheet-powericon_flag[value="all"] + .sheet-body .sheet-power.sheet-display input.sheet-s:not([value="0"]) ~ .sheet-componentscontainer span.sheet-s,
-.sheet-powericon_flag[value="all"] + .sheet-body .sheet-power.sheet-display input.sheet-m:not([value="0"]) ~ .sheet-componentscontainer span.sheet-m 
+.sheet-powericon_flag[value="all"] + .sheet-body .sheet-power .sheet-display input.sheet-v:not([value="0"]) ~ .sheet-componentscontainer span.sheet-v, 
+.sheet-powericon_flag[value="all"] + .sheet-body .sheet-power .sheet-display input.sheet-s:not([value="0"]) ~ .sheet-componentscontainer span.sheet-s,
+.sheet-powericon_flag[value="all"] + .sheet-body .sheet-power .sheet-display input.sheet-m:not([value="0"]) ~ .sheet-componentscontainer span.sheet-m 
 {
     display: inline;
     width: initial;
     font-size: 8px;
 }
 
-.sheet-power.sheet-display input[type=text]
+.sheet-power .sheet-display input[type=text]
 {
     font-size: 12px;
     line-height: 12px;
@@ -1460,7 +1460,7 @@ span.sheet-powerconcentration
     width: 100%;
 }
 
-.sheet-power.sheet-display span.sheet-powername
+.sheet-power .sheet-display span.sheet-powername
 {
     font-size: 12px;
     text-align: left;
@@ -1474,7 +1474,7 @@ span.sheet-powerconcentration
     max-width: 220px;
 }
 
-.sheet-power.sheet-display .sheet-prep ~ span.sheet-powername
+.sheet-power .sheet-display .sheet-prep ~ span.sheet-powername
 {
     margin-left: 14px;
 }
@@ -1559,7 +1559,7 @@ span.sheet-powerconcentration
 
 .sheet-tool .sheet-options,
 .sheet-attack .sheet-options,
-.sheet-power.sheet-options,
+.sheet-power .sheet-options,
 .sheet-proficiencies .sheet-options,
 .sheet-traits .sheet-options,
 .sheet-global-mod .sheet-options
@@ -1569,7 +1569,7 @@ span.sheet-powerconcentration
 
 .sheet-tool .sheet-options span,
 .sheet-attack .sheet-options span,
-.sheet-power.sheet-options span,
+.sheet-power .sheet-options span,
 .sheet-options .sheet-body span,
 .sheet-proficiencies .sheet-options span,
 .sheet-traits .sheet-options span,
@@ -1582,7 +1582,7 @@ span.sheet-powerconcentration
 
 .sheet-tool .sheet-options input,
 .sheet-attack .sheet-options input[type=text],
-.sheet-power.sheet-options input[type=text],
+.sheet-power .sheet-options input[type=text],
 .sheet-options .sheet-body input[type=text],
 .sheet-proficiencies .sheet-options input[type=text],
 .sheet-traits .sheet-options input[type=text],
@@ -1598,7 +1598,7 @@ span.sheet-powerconcentration
 
 .sheet-tool .sheet-options select,
 .sheet-attack .sheet-options select,
-.sheet-power.sheet-options select,
+.sheet-power .sheet-options select,
 .sheet-options .sheet-body select,
 .sheet-proficiencies .sheet-options select,
 .sheet-traits .sheet-options select
@@ -1625,7 +1625,7 @@ span.sheet-powerconcentration
 
 .sheet-tool .sheet-options input[type=checkbox],
 .sheet-attack .sheet-options input[type=checkbox],
-.sheet-power.sheet-options input[type=checkbox],
+.sheet-power .sheet-options input[type=checkbox],
 .sheet-options .sheet-body input[type=checkbox],
 .sheet-npc .sheet-npc_options input[type=checkbox],
 .sheet-proficiencies .sheet-options input[type=checkbox],
@@ -1645,7 +1645,7 @@ span.sheet-powerconcentration
     text-align: center;
 }
 
-.sheet-power.sheet-options textarea {
+.sheet-power .sheet-options textarea {
     width: calc(100% - 10px);
     resize: vertical;
     margin-bottom: 0px;
@@ -1668,7 +1668,7 @@ span.sheet-powerconcentration
     width: 199px;
 }
 
-.sheet-power-container .sheet-power.sheet-options input[name="attr_powercomp_materials"] {
+.sheet-power-container .sheet-power .sheet-options input[name="attr_powercomp_materials"] {
     margin-left: 17px;
     width: 223px;
 }
@@ -1726,11 +1726,11 @@ span.sheet-powerconcentration
     color: black;
 }
 
-.sheet-power.sheet-display {
+.sheet-power .sheet-display {
     position: relative;
 }
 
-.sheet-power.sheet-prep {
+.sheet-power .sheet-prep {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -1739,11 +1739,11 @@ span.sheet-powerconcentration
     border: 1px solid black;
 }
 
-.sheet-powerinput[type=checkbox]:checked ~ span.sheet-prep {
+.sheet-power input[type=checkbox]:checked ~ span.sheet-prep {
     background-color: #EC2127;
 }
 
-.sheet-power.sheet-prep-box {
+.sheet-power .sheet-prep-box {
     -webkit-appearance: checkbox;
     -moz-appearance: checkbox;
     opacity: 0;
@@ -1752,7 +1752,7 @@ span.sheet-powerconcentration
     width: 12px
 }
 
-.charsheet .sheet-power.sheet-display button[type=roll].sheet-powercard {
+.charsheet .sheet-power .sheet-display button[type=roll].sheet-powercard {
     width: calc(100% - 18px);
 }
 
@@ -2233,9 +2233,9 @@ span.sheet-powerconcentration
     pointer-events: none;
 }
 
-.sheet-rolltemplate-power.sheet-container {
+.sheet-rolltemplate-power .sheet-container {
     width: 263px;
-    background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/5th%20Edition%20OGL%20by%20Roll20/images/powerbg.jpg) center center;
+    background: url(https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/5th%20Edition%20OGL%20by%20Roll20/images/spellbg.jpg) center center;
     background-size: auto;
     background-repeat: repeat;
     color: black;
@@ -2245,32 +2245,32 @@ span.sheet-powerconcentration
     border: 1px solid black;
 }
 
-.withoutavatars .sheet-rolltemplate-power.sheet-container {
+.withoutavatars .sheet-rolltemplate-power .sheet-container {
     margin-left: -15px;
 }
 
-.sheet-rolltemplate-power.sheet-row {
+.sheet-rolltemplate-power .sheet-row {
     display: block;
 }
 
-.sheet-rolltemplate-power.sheet-title {
+.sheet-rolltemplate-power .sheet-title {
     color: rgb(126, 45, 64);
     font-size: 1.2em;
 }
 
-.sheet-rolltemplate-power.sheet-italics,
+.sheet-rolltemplate-power .sheet-italics,
 .sheet-npc .sheet-italics
 {
     font-style: italic;
 }
 
-.sheet-rolltemplate-power.sheet-bold,
+.sheet-rolltemplate-power .sheet-bold,
 .sheet-actions .sheet-bold
 {
     font-weight: bold;
 }
 
-.sheet-rolltemplate-power.sheet-spacer {
+.sheet-rolltemplate-power .sheet-spacer {
     height: 5px;
 }
 
@@ -3549,10 +3549,10 @@ span.sheet-powerconcentration
     font-size: 9px;
 }
 
-.charsheet.lang-cs .sheet-power.sheet-options span[data-i18n="at-higher-lvl-dmg:-u"],
-.charsheet.lang-cs .sheet-power.sheet-options span[data-i18n="add-ability-mod-u"],
-.charsheet.lang-cs .sheet-power.sheet-options span[data-i18n="saving-throw:-u"],
-.charsheet.lang-cs .sheet-power.sheet-options span[data-i18n="effect:-u"],
+.charsheet.lang-cs .sheet-power .sheet-options span[data-i18n="at-higher-lvl-dmg:-u"],
+.charsheet.lang-cs .sheet-power .sheet-options span[data-i18n="add-ability-mod-u"],
+.charsheet.lang-cs .sheet-power .sheet-options span[data-i18n="saving-throw:-u"],
+.charsheet.lang-cs .sheet-power .sheet-options span[data-i18n="effect:-u"],
 .charsheet.lang-cs .sheet-ac-init-speed-container .sheet-ac > span {
     font-size: 8px;
 }
@@ -3850,7 +3850,7 @@ span.sheet-powerconcentration
 .sheet-charmancer .sheet-hilite div + div {
     margin: 1em 0 0;
 }
-.sheet-charmancer .sheet-gold_option input[type=number] {
+.sheet-charmancer .sheet-credit_option input[type=number] {
     width: 4.5em;
 }
 .sheet-manver .sheet-yes_powers {
