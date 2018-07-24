@@ -1322,7 +1322,7 @@
                                 </div>
                                 <div class="row" style="margin-bottom: 3px;">
                                     <span data-i18n="proficency-u">PROFICIENCY</span><span>:</span>
-                                    <input type="text" name="attr_name" style="width: 165px;" placeholder="Elven, Dwarven, and Common">
+                                    <input type="text" name="attr_name" style="width: 165px;" placeholder="Basic, Huttese, Binary">
                                 </div>
                             </div>
                             <div class="display" style="margin-bottom: 2px;">
@@ -1596,24 +1596,8 @@
             <div class="equipment">
                 <div class="money">
                     <div class="coin">
-                        <span class="label" data-i18n="copper-piece-u">CP</span>
-                        <input type="text" name="attr_cp" title="@{cp}">
-                    </div>
-                    <div class="coin">
-                        <span class="label" data-i18n="silver-piece-u">SP</span>
-                        <input type="text" name="attr_sp" title="@{sp}">
-                    </div>
-                    <div class="coin">
-                        <span class="label" data-i18n="electrum-piece-u">EP</span>
-                        <input type="text" name="attr_ep" title="@{ep}">
-                    </div>
-                    <div class="coin">
-                        <span class="label" data-i18n="gold-piece-u">GP</span>
-                        <input type="text" name="attr_gp" title="@{gp}">
-                    </div>
-                    <div class="coin">
-                        <span class="label" data-i18n="platinum-piece-u">PP</span>
-                        <input type="text" name="attr_pp" title="@{pp}">
+                        <span class="label" data-i18n="credit-piece-u">CR</span>
+                        <input type="text" name="attr_cr" title="@{cr}">
                     </div>
                 </div>
                 <input type="hidden" class="inventoryflag" name="attr_simpleinventory" value="complex">
@@ -1778,7 +1762,7 @@
                                 </div>
                                 <div class="row">
                                     <span data-i18n="source-type:-u">SOURCE TYPE:</span>
-                                    <input type="text" name="attr_source_type" style="width: 160px;" placeholder="Dwarf/Fighter/4th Level">
+                                    <input type="text" name="attr_source_type" style="width: 160px;" placeholder="Bothan/Fighter/4th Level">
                                 </div>
                                 <div class="row">
                                     <textarea name="attr_description" style="min-height: 200px; height: 200px;"></textarea>
@@ -1870,7 +1854,7 @@
             </div>
             <div class="textbox">
                 <textarea name="attr_treasure" style="min-height: 300px; height: 300px;"></textarea>
-                <span class="label" data-i18n="treasure-u">TREASURE</span>
+                <span class="label" data-i18n="treasure-u">LOOT</span>
             </div>
         </div>
     </div>
@@ -2083,8 +2067,8 @@
             </div>
 
             <span class="power-labels">
-                <span data-i18n="slots_total-u" style="margin-right: 45px;">SLOTS TOTAL</span>
-                <span data-i18n="slots_remaining-u">SLOTS REMAINING</span>
+                <span data-i18n="slots_total-u" style="margin-right: 45px;">POINTS TOTAL</span>
+                <span data-i18n="slots_remaining-u">POINTS REMAINING</span>
             </span>
             <div class="power-level">
                 <div class="level">
@@ -2259,12 +2243,6 @@
                 <div class="level">
                     <span class="label">2</span>
                 </div>
-                <div class="total">
-                    <span name="attr_lvl2_slots_total"></span>
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_lvl2_slots_expended" value="0">
-                </div>
             </div>
             <div class="power-container">
                 <fieldset class="repeating_power-2">
@@ -2431,12 +2409,6 @@
                 <div class="level">
                     <span class="label">3</span>
                 </div>
-                <div class="total">
-                    <span name="attr_lvl3_slots_total"></span>
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_lvl3_slots_expended" value="0">
-                </div>
             </div>
             <div class="power-container">
                 <fieldset class="repeating_power-3">
@@ -2600,12 +2572,6 @@
                 <div class="level">
                     <span class="label">4</span>
                 </div>
-                <div class="total">
-                    <span name="attr_lvl4_slots_total"></span>
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_lvl4_slots_expended" value="0">
-                </div>
             </div>
             <div class="power-container">
                 <fieldset class="repeating_power-4">
@@ -2768,12 +2734,6 @@
             <div class="power-level">
                 <div class="level">
                     <span class="label">5</span>
-                </div>
-                <div class="total">
-                    <span name="attr_lvl5_slots_total"></span>
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_lvl5_slots_expended" value="0">
                 </div>
             </div>
             <div class="power-container">
@@ -2941,12 +2901,6 @@
                 <div class="level">
                     <span class="label">6</span>
                 </div>
-                <div class="total">
-                    <span name="attr_lvl6_slots_total"></span>
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_lvl6_slots_expended" value="0">
-                </div>
             </div>
             <div class="power-container">
                 <fieldset class="repeating_power-6">
@@ -3109,12 +3063,6 @@
             <div class="power-level">
                 <div class="level">
                     <span class="label">7</span>
-                </div>
-                <div class="total">
-                    <span name="attr_lvl7_slots_total"></span>
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_lvl7_slots_expended" value="0">
                 </div>
             </div>
             <div class="power-container">
@@ -3279,12 +3227,6 @@
                 <div class="level">
                     <span class="label">8</span>
                 </div>
-                <div class="total">
-                    <span name="attr_lvl8_slots_total"></span>
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_lvl8_slots_expended" value="0">
-                </div>
             </div>
             <div class="power-container">
                 <fieldset class="repeating_power-8">
@@ -3447,12 +3389,6 @@
             <div class="power-level">
                 <div class="level">
                     <span class="label">9</span>
-                </div>
-                <div class="total">
-                    <span name="attr_lvl9_slots_total"></span>
-                </div>
-                <div class="expended">
-                    <input type="number" name="attr_lvl9_slots_expended" value="0">
                 </div>
             </div>
             <div class="power-container">
