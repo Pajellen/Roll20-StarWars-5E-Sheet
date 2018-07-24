@@ -242,11 +242,11 @@
             </div>
             <div class="npcpoweroptions">
                 <div class="row">
-                    <span data-i18n="glob-atk-mod:-u">GLOBAL MAGIC ATTACK MODIFIER:</span>
-                    <input type="text" class="num" name="attr_globalmagicmod" placeholder="0" value="0">
+                    <span data-i18n="glob-atk-mod:-u">GLOBAL POWER ATTACK MODIFIER:</span>
+                    <input type="text" class="num" name="attr_globalpowermod" placeholder="0" value="0">
                 </div>
                 <div class="row">
-                    <span data-i18n="magic-caster-lvl:-u">MAGIC CASTER LEVEL:</span>
+                    <span data-i18n="power-caster-lvl:-u">POWER CASTER LEVEL:</span>
                     <input type="text" class="num" name="attr_caster_level">
                 </div>
                 <div class="row">
@@ -931,7 +931,7 @@
 <div class="page core">
     <div class="header">
         <div class="name-container">
-            <img src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/5th%20Edition%20OGL%20by%20Roll20/images/srd5_360.png" style="padding-bottom: 5px;">
+            <img src="https://s22.postimg.cc/jnlp8fqc1/Star_Wars_5_E_Logo_Shrunk.png" style="padding-bottom: 10px;">
             <input type="text" name="attr_character_name" style="width: 100%;">
             <span class="label" data-i18n="char-name-u">CHARACTER NAME</span>
         </div>
@@ -1443,8 +1443,8 @@
                                 <input type="text" name="attr_atkrange" placeholder="Self (60-foot cone)" style="width: 170px;" data-i18n-placeholder="range-place">
                             </div>
                             <div class="row">
-                                <span style="margin-left: 17px;" data-i18n="magic-bonus:-u">MAGIC BONUS:</span>
-                                <input type="text" class="num" name="attr_atkmagic" placeholder="0">
+                                <span style="margin-left: 17px;" data-i18n="power-bonus:-u">POWER BONUS:</span>
+                                <input type="text" class="num" name="attr_atkpower" placeholder="0">
                                 <span data-i18n="crit-range-u">CRIT RANGE:</span>
                                 <input type="text" class="num" name="attr_atkcritrange" value="20" placeholder="20">
                             </div>
@@ -1793,7 +1793,7 @@
 <div class="page bio">
     <div class="header">
         <div class="name-container">
-            <img src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/5th%20Edition%20OGL%20by%20Roll20/images/srd5_360.png" style="padding-bottom: 5px;">
+            <img src="https://s22.postimg.cc/jnlp8fqc1/Star_Wars_5_E_Logo_Shrunk.png" style="padding-bottom: 10px;">
             <input type="text" name="attr_character_name" style="width: 100%;">
             <span class="label" data-i18n="char-name-u">CHARACTER NAME</span>
         </div>
@@ -1863,7 +1863,7 @@
 <div class="page powers">
     <div class="header">
         <div class="name-container">
-            <img src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/5th%20Edition%20OGL%20by%20Roll20/images/srd5_360.png" style="padding-bottom: 5px;">
+            <img src="https://s22.postimg.cc/jnlp8fqc1/Star_Wars_5_E_Logo_Shrunk.png" style="padding-bottom: 10px;">
             <input type="text" name="attr_character_name" style="width: 100%;">
             <span class="label" data-i18n="char-name-u">CHARACTER NAME</span>
         </div>
@@ -2075,10 +2075,10 @@
                     <span class="label">1</span>
                 </div>
                 <div class="total">
-                    <span name="attr_lvl1_slots_total"></span>
+                    <input type="number" name="attr_power_points_total" value="0">
                 </div>
                 <div class="expended">
-                    <input type="number" name="attr_lvl1_slots_expended" value="0">
+                    <input type="number" name="attr_power_points_expended" value="0">
                 </div>
             </div>
             <div class="power-container">
@@ -3556,7 +3556,7 @@
 <div class="page options">
     <div class="header">
         <div class="name-container">
-            <img src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/5th%20Edition%20OGL%20by%20Roll20/images/srd5_360.png" style="padding-bottom: 5px;">
+            <img src="https://s22.postimg.cc/jnlp8fqc1/Star_Wars_5_E_Logo_Shrunk.png" style="padding-bottom: 10px;">
             <input type="text" name="attr_character_name" style="width: 100%;">
             <span class="label" data-i18n="char-name-u">CHARACTER NAME</span>
         </div>
@@ -3636,11 +3636,11 @@
                     <input type="text" class="num" name="attr_carrying_capacity_mod" placeholder="*2">
                 </div>
                 <div class="row">
-                    <span data-i18n="glob-atk-mod:-u">GLOBAL MAGIC ATTACK MODIFIER:</span>
-                    <input type="text" class="num" name="attr_globalmagicmod" placeholder="0" value="0">
+                    <span data-i18n="glob-atk-mod:-u">GLOBAL POWER ATTACK MODIFIER:</span>
+                    <input type="text" class="num" name="attr_globalpowermod" placeholder="0" value="0">
                 </div>
                 <div class="row">
-                    <span data-i18n="magic-caster-lvl:-u">MAGIC CASTER LEVEL:</span>
+                    <span data-i18n="power-caster-lvl:-u">POWER CASTER LEVEL:</span>
                     <input type="text" class="num" name="attr_caster_level">
                 </div>
                 <div class="row">
@@ -3656,19 +3656,19 @@
                     </select>
                 </div>
                 <div class="row">
-                    <input type="checkbox" name="attr_halflingluck_flag" value="1">
-                    <span data-i18n="halfling-luck-u">HALFLING LUCK</span>
+                    <input type="checkbox" name="attr_precognition_flag" value="1">
+                    <span data-i18n="precognition-u">PRECOGNITION (REROLL ONES)</span>
                 </div>
                 <div class="row">
-                    <input type="checkbox" name="attr_arcane_fighter" value="1">
-                    <span data-i18n="arcane-fighter-u">ARCANE FIGHTER</span>
+                    <input type="checkbox" name="attr_tech_fighter" value="1">
+                    <span data-i18n="tech-fighter-u">TECH FIGHTER</span>
                 </div>
                 <div class="row">
-                    <input type="checkbox" name="attr_arcane_specialist" value="1">
-                    <span data-i18n="arcane-specialist-u">ARCANE ROGUE</span>
+                    <input type="checkbox" name="attr_tech_specialist" value="1">
+                    <span data-i18n="tech-specialist-u">TECH SPECIALISTE</span>
                 </div>
                 <div class="row title">
-                    <span data-i18n="class-options-u">CLASS OPTIONS (<span name="attr_class" data-i18n-dynamic></span>)</span>
+                    <span data-i18n="class-options-u">CLASS OPTIONS</span>
                 </div>
             </div>
             <div class="class_options">
@@ -3773,7 +3773,7 @@
                         <option value="none" data-i18n="none-u">NONE</option>
                         <option value="full" data-i18n="power-full-u">FULL (Engineer, Druid, Consular)</option>
                         <option value="half" data-i18n="power-half-u">HALF (Warrior, Scout)</option>
-                        <option value="third" data-i18n="power-third-u">THIRD (Arcane Fighter/Specialist)</option>
+                        <option value="third" data-i18n="power-third-u">THIRD (Tech Fighter/Specialist)</option>
                     </select>
                 </div>
                 <div class="row">
@@ -3805,53 +3805,6 @@
                 </div>
                 <div class="row title">
                     <span data-i18n="cust-class-opts">CUSTOM CLASS OPTIONS</span>
-                </div>
-            </div>
-            <div class="class_options power_slot_mods">
-                <div class="column">
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">1 +</span>
-                        <input type="text" class="num" name="attr_lvl1_slots_mod" value="0" placeholder="0" title="@{lvl1_slots_mod}">
-                    </div>
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">2 +</span>
-                        <input type="text" class="num" name="attr_lvl2_slots_mod" value="0" placeholder="0" title="@{lvl2_slots_mod}">
-                    </div>
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">3 +</span>
-                        <input type="text" class="num" name="attr_lvl3_slots_mod" value="0" placeholder="0" title="@{lvl3_slots_mod}">
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">4 +</span>
-                        <input type="text" class="num" name="attr_lvl4_slots_mod" value="0" placeholder="0" title="@{lvl4_slots_mod}">
-                    </div>
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">5 +</span>
-                        <input type="text" class="num" name="attr_lvl5_slots_mod" value="0" placeholder="0" title="@{lvl5_slots_mod}">
-                    </div>
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">6 +</span>
-                        <input type="text" class="num" name="attr_lvl6_slots_mod" value="0" placeholder="0" title="@{lvl6_slots_mod}">
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">7 +</span>
-                        <input type="text" class="num" name="attr_lvl7_slots_mod" value="0" placeholder="0" title="@{lvl7_slots_mod}">
-                    </div>
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">8 +</span>
-                        <input type="text" class="num" name="attr_lvl8_slots_mod" value="0" placeholder="0" title="@{lvl8_slots_mod}">
-                    </div>
-                    <div class="row">
-                        <span data-i18n="lvl-u">LEVEL</span><span class="num_plus">9 +</span>
-                        <input type="text" class="num" name="attr_lvl9_slots_mod" value="0" placeholder="0" title="@{lvl9_slots_mod}">
-                    </div>
-                </div>
-                <div class="row title">
-                    <span data-i18n="power_slot_modifiers-u">POWER SLOT MODIFIERS</span>
                 </div>
             </div>
         </div>
@@ -4218,14 +4171,6 @@
                 </div>
                 <div class="row title">
                     <span data-i18n="general-opts-u">GENERAL OPTIONS</span>
-                </div>
-            </div>
-            <div class="general_options">
-                <div class="row">
-                    <button type="action" name="act_relaunch_lvl1mancer" style="padding: 0px;"><img src="https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/5th%20Edition%20OGL%20by%20Roll20/images/CharactermancerIcon200px.png" style="height: 32px; width: 32px"></button><span style="width: 180px; margin-left: 10px; display: inline-block;" data-i18n="relaunch-lvl1mancer-u">LAUNCH LEVEL 1 CHARACTERMANCER (CANNOT BE UNDONE)</span>
-                </div>
-                <div class="row title">
-                    <span data-i18n="mancer-opts-u">CHARACTERMANCER OPTIONS</span>
                 </div>
             </div>
         </div>
@@ -5762,7 +5707,7 @@
         update_tool(tool_id);
     });
 
-    on("change:repeating_attack:atkname change:repeating_attack:atkflag change:repeating_attack:atkattr_base change:repeating_attack:atkmod change:repeating_attack:atkmagic change:repeating_attack:atkprofflag change:repeating_attack:dmgflag change:repeating_attack:dmgbase change:repeating_attack:dmgattr change:repeating_attack:dmgmod change:repeating_attack:dmgtype change:repeating_attack:dmg2flag change:repeating_attack:dmg2base change:repeating_attack:dmg2attr change:repeating_attack:dmg2mod change:repeating_attack:dmg2type change:repeating_attack:saveflag change:repeating_attack:savedc change:repeating_attack:saveflat change:repeating_attack:dmgcustcrit change:repeating_attack:dmg2custcrit change:repeating_attack:ammo change:repeating_attack:saveattr change:repeating_attack:atkrange", function(eventinfo) {
+    on("change:repeating_attack:atkname change:repeating_attack:atkflag change:repeating_attack:atkattr_base change:repeating_attack:atkmod change:repeating_attack:atkpower change:repeating_attack:atkprofflag change:repeating_attack:dmgflag change:repeating_attack:dmgbase change:repeating_attack:dmgattr change:repeating_attack:dmgmod change:repeating_attack:dmgtype change:repeating_attack:dmg2flag change:repeating_attack:dmg2base change:repeating_attack:dmg2attr change:repeating_attack:dmg2mod change:repeating_attack:dmg2type change:repeating_attack:saveflag change:repeating_attack:savedc change:repeating_attack:saveflat change:repeating_attack:dmgcustcrit change:repeating_attack:dmg2custcrit change:repeating_attack:ammo change:repeating_attack:saveattr change:repeating_attack:atkrange", function(eventinfo) {
         if(eventinfo.sourceType === "sheetworker") {
             return;
         }
@@ -6055,7 +6000,7 @@
         update_class();
     });
 
-    on("change:base_level change:multiclass1_flag change:multiclass1 change:multiclass1_lvl change:multiclass2_flag change:multiclass2 change:multiclass2_lvl change:multiclass3_flag change:multiclass3 change:multiclass3_lvl change:arcane_fighter change:arcane_specialist", function(eventinfo) {
+    on("change:base_level change:multiclass1_flag change:multiclass1 change:multiclass1_lvl change:multiclass2_flag change:multiclass2 change:multiclass2_lvl change:multiclass3_flag change:multiclass3 change:multiclass3_lvl change:tech_fighter change:tech_specialist", function(eventinfo) {
         if(eventinfo.sourceType && eventinfo.sourceType === "sheetworker") {
             return;
         }
@@ -6112,7 +6057,7 @@
         update_initiative();
     });
 
-    on("change:powercasting_ability change:power_dc_mod change:globalmagicmod", function(eventinfo) {
+    on("change:powercasting_ability change:power_dc_mod change:globalpowermod", function(eventinfo) {
         if(eventinfo.sourceType && eventinfo.sourceType === "sheetworker") {
             return;
         }
@@ -6140,10 +6085,10 @@
         update_npc_action(actionid, legendary);
     });
 
-    on("change:core_die change:halflingluck_flag", function() {
-        getAttrs(["core_die","halflingluck_flag"], function(v) {
+    on("change:core_die change:precognition_flag", function() {
+        getAttrs(["core_die","precognition_flag"], function(v) {
             core = v.core_die && v.core_die != "" ? v.core_die : "1d20";
-            luck = v.halflingluck_flag && v.halflingluck_flag === "1" ? "ro<1" : "";
+            luck = v.precognition_flag && v.precognition_flag === "1" ? "ro<1" : "";
             update = {};
             update["d20"] = core + luck;
             if(!v.core_die || v.core_die === "") {
@@ -7511,7 +7456,7 @@
                 if(category === "Races") {
                     update["race"] = v.drop_name;
                     if (v.drop_name == "Halfling") {
-                        update["halflingluck_flag"] = "1";
+                        update["precognition_flag"] = "1";
                     }
                 }
                 else {
@@ -7932,7 +7877,7 @@
                 update["repeating_attack_" + attackid + "_dmgattr"] = "@{strength_mod}";
             }
             if(attackmod && damagemod && attackmod == damagemod) {
-                update["repeating_attack_" + attackid + "_atkmagic"] = parseInt(attackmod, 10);
+                update["repeating_attack_" + attackid + "_atkpower"] = parseInt(attackmod, 10);
                 update["repeating_attack_" + attackid + "_atkmod"] = "";
                 update["repeating_attack_" + attackid + "_dmgmod"] = "";
             }
@@ -7943,7 +7888,7 @@
                 if(damagemod) {
                     update["repeating_attack_" + attackid + "_dmgmod"] = parseInt(damagemod, 10);
                 }
-                update["repeating_attack_" + attackid + "_atkmagic"] = "";
+                update["repeating_attack_" + attackid + "_atkpower"] = "";
             }
             var callback = function() {update_attacks(attackid, "item")};
             setAttrs(update, {silent: true}, callback);
@@ -8276,14 +8221,14 @@
     };
 
     var do_update_attack = function(attack_array, source) {
-        var attack_attribs = ["level","d20","pb","pb_type","pbd_safe","dtype","globalmagicmod","strength_mod","dexterity_mod","constitution_mod","intelligence_mod","wisdom_mod","charisma_mod","powercasting_ability","power_save_dc","power_attack_mod", "power_dc_mod", "global_damage_mod_roll", "global_damage_mod_crit"];
+        var attack_attribs = ["level","d20","pb","pb_type","pbd_safe","dtype","globalpowermod","strength_mod","dexterity_mod","constitution_mod","intelligence_mod","wisdom_mod","charisma_mod","powercasting_ability","power_save_dc","power_attack_mod", "power_dc_mod", "global_damage_mod_roll", "global_damage_mod_crit"];
         _.each(attack_array, function(attackid) {
             attack_attribs.push("repeating_attack_" + attackid + "_atkflag");
             attack_attribs.push("repeating_attack_" + attackid + "_atkname");
             attack_attribs.push("repeating_attack_" + attackid + "_atkattr_base");
             attack_attribs.push("repeating_attack_" + attackid + "_atkmod");
             attack_attribs.push("repeating_attack_" + attackid + "_atkprofflag");
-            attack_attribs.push("repeating_attack_" + attackid + "_atkmagic");
+            attack_attribs.push("repeating_attack_" + attackid + "_atkpower");
             attack_attribs.push("repeating_attack_" + attackid + "_dmgflag");
             attack_attribs.push("repeating_attack_" + attackid + "_dmgbase");
             attack_attribs.push("repeating_attack_" + attackid + "_dmgattr");
@@ -8321,8 +8266,8 @@
                 var dmg2 = "";
                 var rollbase = "";
                 var powerattack = false;
-                var magicattackmod = 0;
-                var magicsavemod = 0;
+                var powerattackmod = 0;
+                var powersavemod = 0;
                 var atkattr_abrev = "";
                 var dmgattr_abrev = "";
                 var dmg2attr_abrev = "";
@@ -8331,8 +8276,8 @@
                 var hldmgcrit = v["repeating_attack_" + attackid + "_hldmg"] && v["repeating_attack_" + attackid + "_hldmg"] != "" ? v["repeating_attack_" + attackid + "_hldmg"].slice(0, 7) + "crit" + v["repeating_attack_" + attackid + "_hldmg"].slice(7) : "";
                 if(v["repeating_attack_" + attackid + "_powerid"] && v["repeating_attack_" + attackid + "_powerid"] != "") {
                     powerattack = true;
-                    magicattackmod = v["power_attack_mod"] && !isNaN(parseInt(v["power_attack_mod"],10)) ? parseInt(v["power_attack_mod"],10) : 0;
-                    magicsavemod = v["power_dc_mod"] && !isNaN(parseInt(v["power_dc_mod"],10)) ? parseInt(v["power_dc_mod"],10) : 0;
+                    powerattackmod = v["power_attack_mod"] && !isNaN(parseInt(v["power_attack_mod"],10)) ? parseInt(v["power_attack_mod"],10) : 0;
+                    powersavemod = v["power_dc_mod"] && !isNaN(parseInt(v["power_dc_mod"],10)) ? parseInt(v["power_dc_mod"],10) : 0;
                 };
 
                 if(!v["repeating_attack_" + attackid + "_atkattr_base"] || v["repeating_attack_" + attackid + "_atkattr_base"] === "0") {
@@ -8373,10 +8318,10 @@
                 var dmg2type = v["repeating_attack_" + attackid + "_dmg2type"] ? v["repeating_attack_" + attackid + "_dmg2type"] + " " : "";
                 var pb = v["repeating_attack_" + attackid + "_atkprofflag"] && v["repeating_attack_" + attackid + "_atkprofflag"] != 0 && v.pb ? v.pb : 0;
                 var atkmod = v["repeating_attack_" + attackid + "_atkmod"] && v["repeating_attack_" + attackid + "_atkmod"] != "" ? parseInt(v["repeating_attack_" + attackid + "_atkmod"],10) : 0;
-                var atkmag = v["repeating_attack_" + attackid + "_atkmagic"] && v["repeating_attack_" + attackid + "_atkmagic"] != "" ? parseInt(v["repeating_attack_" + attackid + "_atkmagic"],10) : 0;
-                var dmgmag = isNaN(atkmag) === false && atkmag != 0 && ((v["repeating_attack_" + attackid + "_dmgflag"] && v["repeating_attack_" + attackid + "_dmgflag"] != 0) || (v["repeating_attack_" + attackid + "_dmg2flag"] && v["repeating_attack_" + attackid + "_dmg2flag"] != 0)) ? "+ " + atkmag + " Magic Bonus" : "";
+                var atkmag = v["repeating_attack_" + attackid + "_atkpower"] && v["repeating_attack_" + attackid + "_atkpower"] != "" ? parseInt(v["repeating_attack_" + attackid + "_atkpower"],10) : 0;
+                var dmgmag = isNaN(atkmag) === false && atkmag != 0 && ((v["repeating_attack_" + attackid + "_dmgflag"] && v["repeating_attack_" + attackid + "_dmgflag"] != 0) || (v["repeating_attack_" + attackid + "_dmg2flag"] && v["repeating_attack_" + attackid + "_dmg2flag"] != 0)) ? "+ " + atkmag + " Power Bonus" : "";
                 if(v["repeating_attack_" + attackid + "_atkflag"] && v["repeating_attack_" + attackid + "_atkflag"] != 0) {
-                    bonus_mod = atkattr_base + atkmod + atkmag + magicattackmod;
+                    bonus_mod = atkattr_base + atkmod + atkmag + powerattackmod;
                     if(v["pb_type"] && v["pb_type"] === "die") {
                         plus_minus = bonus_mod > -1 ? "+" : "";
                         bonus = bonus_mod + "+" + pb;
@@ -8398,7 +8343,7 @@
                         var savedcattr = v["repeating_attack_" + attackid + "_savedc"].replace(/^[^{]*{/,"").replace(/\_.*$/,"");
                         var safe_pb = v["pb_type"] && v["pb_type"] === "die" ? parseInt(pb.substring(1), 10) / 2 : parseInt(pb,10);
                         var safe_attr = v[savedcattr + "_mod"] ? parseInt(v[savedcattr + "_mod"],10) : 0;
-                        var tempdc = 8 + safe_attr + safe_pb + magicsavemod;
+                        var tempdc = 8 + safe_attr + safe_pb + powersavemod;
                     };
                     bonus = "DC" + tempdc;
                 }
@@ -8458,8 +8403,8 @@
                 r1 = v["repeating_attack_" + attackid + "_atkflag"] && v["repeating_attack_" + attackid + "_atkflag"] != 0 ? "@{d20}" : "0d20";
                 r2 = v["repeating_attack_" + attackid + "_atkflag"] && v["repeating_attack_" + attackid + "_atkflag"] != 0 ? "@{rtype}" : "{{r2=[[0d20";
                 if(v["repeating_attack_" + attackid + "_atkflag"] && v["repeating_attack_" + attackid + "_atkflag"] != 0) {
-                    if(magicattackmod != 0) {hbonus = " + " + magicattackmod + "[POWERATK]" + hbonus};
-                    if(atkmag != 0) {hbonus = " + " + atkmag + "[MAGIC]" + hbonus};
+                    if(powerattackmod != 0) {hbonus = " + " + powerattackmod + "[POWERATK]" + hbonus};
+                    if(atkmag != 0) {hbonus = " + " + atkmag + "[POWER]" + hbonus};
                     if(pb != 0) {hbonus = " + " + pb + pbd_safe + "[PROF]" + hbonus};
                     if(atkmod != 0) {hbonus = " + " + atkmod + "[MOD]" + hbonus};
                     if(atkattr_base != 0) {hbonus = " + " + atkattr_base + "[" + atkattr_abrev + "]" + hbonus};
@@ -8468,7 +8413,7 @@
                     hbonus = "";
                 }
                 if(v["repeating_attack_" + attackid + "_dmgflag"] && v["repeating_attack_" + attackid + "_dmgflag"] != 0) {
-                    if(atkmag != 0) {hdmg1 = " + " + atkmag + "[MAGIC]" + hdmg1};
+                    if(atkmag != 0) {hdmg1 = " + " + atkmag + "[POWER]" + hdmg1};
                     if(dmgmod != 0) {hdmg1 = " + " + dmgmod + "[MOD]" + hdmg1};
                     if(dmgattr != 0) {hdmg1 = " + " + dmgattr + "[" + dmgattr_abrev + "]" + hdmg1};
                     hdmg1 = dmgbase + hdmg1;
@@ -8588,7 +8533,7 @@
     };
 
     var update_item_from_attack = function(itemid, attackid) {
-        getAttrs(["repeating_attack_" + attackid + "_atkname", "repeating_attack_" + attackid + "_dmgbase", "repeating_attack_" + attackid + "_dmg2base", "repeating_attack_" + attackid + "_dmgtype", "repeating_attack_" + attackid + "_dmg2type", "repeating_attack_" + attackid + "_atkrange", "repeating_attack_" + attackid + "_atkmod", "repeating_attack_" + attackid + "_dmgmod", "repeating_inventory_" + itemid + "_itemmodifiers", "repeating_attack_" + attackid + "_versatile_alt", "repeating_inventory_" + itemid + "_itemproperties", "repeating_attack_" + attackid + "_atkmagic"], function(v) {
+        getAttrs(["repeating_attack_" + attackid + "_atkname", "repeating_attack_" + attackid + "_dmgbase", "repeating_attack_" + attackid + "_dmg2base", "repeating_attack_" + attackid + "_dmgtype", "repeating_attack_" + attackid + "_dmg2type", "repeating_attack_" + attackid + "_atkrange", "repeating_attack_" + attackid + "_atkmod", "repeating_attack_" + attackid + "_dmgmod", "repeating_inventory_" + itemid + "_itemmodifiers", "repeating_attack_" + attackid + "_versatile_alt", "repeating_inventory_" + itemid + "_itemproperties", "repeating_attack_" + attackid + "_atkpower"], function(v) {
             var update = {};
             var mods = v["repeating_inventory_" + itemid + "_itemmodifiers"];
             var damage = v["repeating_attack_" + attackid + "_dmgbase"] ? v["repeating_attack_" + attackid + "_dmgbase"] : 0;
@@ -8598,7 +8543,7 @@
             var range = v["repeating_attack_" + attackid + "_atkrange"] ? v["repeating_attack_" + attackid + "_atkrange"] : 0;
             var attackmod = v["repeating_attack_" + attackid + "_atkmod"] ? v["repeating_attack_" + attackid + "_atkmod"] : 0;
             var damagemod = v["repeating_attack_" + attackid + "_dmgmod"] ? v["repeating_attack_" + attackid + "_dmgmod"] : 0;
-            var magicmod = v["repeating_attack_" + attackid + "_atkmagic"] ? v["repeating_attack_" + attackid + "_atkmagic"] : 0;
+            var powermod = v["repeating_attack_" + attackid + "_atkpower"] ? v["repeating_attack_" + attackid + "_atkpower"] : 0;
             var atktype = "";
             var altprefix = v["repeating_attack_" + attackid + "_versatile_alt"] === "1" ? "Alternate " : "";
 
@@ -8700,21 +8645,21 @@
             var attackmod_found = false;
             for(var i = 0; i < mods.length; i++) {
                 if(attackmod_found = attackmod_regex.exec(mods[i])) {
-                    if(magicmod !== 0 || attackmod !== 0) {
-                        mods[i] = mods[i].replace(attackmod_found[1], magicmod !== 0 ? magicmod : attackmod);
+                    if(powermod !== 0 || attackmod !== 0) {
+                        mods[i] = mods[i].replace(attackmod_found[1], powermod !== 0 ? powermod : attackmod);
                     } else {
                         mods.splice(i, 1);
                     }
                     break;
                 }
             }
-            if(!attackmod_found && (magicmod !== 0 || attackmod !== 0)) {
+            if(!attackmod_found && (powermod !== 0 || attackmod !== 0)) {
                 var properties = v["repeating_inventory_" + itemid + "_itemproperties"];
                 if(properties && /Thrown/i.test(properties)) {
-                    mods.push("Weapon Attacks: " + (magicmod !== 0 ? magicmod : attackmod));
+                    mods.push("Weapon Attacks: " + (powermod !== 0 ? powermod : attackmod));
                 }
                 else {
-                    mods.push(atktype + " Attacks: " + (magicmod !== 0 ? magicmod : attackmod));
+                    mods.push(atktype + " Attacks: " + (powermod !== 0 ? powermod : attackmod));
                 }
             }
 
@@ -8722,21 +8667,21 @@
             var damagemod_found = false;
             for(var i = 0; i < mods.length; i++) {
                 if(damagemod_found = damagemod_regex.exec(mods[i])) {
-                    if(magicmod !== 0 || damagemod !== 0) {
-                        mods[i] = mods[i].replace(damagemod_found[1], magicmod !== 0 ? magicmod : attackmod);
+                    if(powermod !== 0 || damagemod !== 0) {
+                        mods[i] = mods[i].replace(damagemod_found[1], powermod !== 0 ? powermod : attackmod);
                     } else {
                         mods.splice(i, 1);
                     }
                     break;
                 }
             }
-            if(!damagemod_found && (magicmod !== 0 || damagemod !== 0)) {
+            if(!damagemod_found && (powermod !== 0 || damagemod !== 0)) {
                 var properties = v["repeating_inventory_" + itemid + "_itemproperties"];
                 if(properties && /Thrown/i.test(properties)) {
-                    mods.push("Weapon Damage: " + (magicmod !== 0 ? magicmod : damagemod));
+                    mods.push("Weapon Damage: " + (powermod !== 0 ? powermod : damagemod));
                 }
                 else {
-                    mods.push(atktype + " Damage: " + (magicmod !== 0 ? magicmod : damagemod));
+                    mods.push(atktype + " Damage: " + (powermod !== 0 ? powermod : damagemod));
                 }
             }
 
@@ -9170,7 +9115,7 @@
     };
 
     var set_level = function() {
-        getAttrs(["base_level","multiclass1_flag","multiclass2_flag","multiclass3_flag","multiclass1_lvl","multiclass2_lvl","multiclass3_lvl","class","multiclass1","multiclass2","multiclass3", "arcane_fighter", "arcane_specialist", "custom_class", "cust_powerslots", "cust_classname", "level_calculations", "class", "subclass", "multiclass1_subclass","multiclass2_subclass","multiclass3_subclass"], function(v) {
+        getAttrs(["base_level","multiclass1_flag","multiclass2_flag","multiclass3_flag","multiclass1_lvl","multiclass2_lvl","multiclass3_lvl","class","multiclass1","multiclass2","multiclass3", "tech_fighter", "tech_specialist", "custom_class", "cust_powerslots", "cust_classname", "level_calculations", "class", "subclass", "multiclass1_subclass","multiclass2_subclass","multiclass3_subclass"], function(v) {
             var update = {};
             var callbacks = [];
             var multiclass = (v.multiclass1_flag && v.multiclass1_flag === "1") || (v.multiclass2_flag && v.multiclass2_flag === "1") || (v.multiclass3_flag && v.multiclass3_flag === "1") ? true : false;
@@ -9209,7 +9154,7 @@
                 class_display = class_display + ", " + subclass + v.multiclass3 + " " + multiclasslevel;
             };
 
-            var casterlevel = checkCasterLevel(classes, v["arcane_fighter"], v["arcane_specialist"]);
+            var casterlevel = checkCasterLevel(classes, v["tech_fighter"], v["tech_specialist"]);
 
             update["hitdie_final"] = multiclass ? hitdie_final + "}" : hitdie_final;
             update["level"] = finallevel;
@@ -9225,11 +9170,11 @@
         });
     };
 
-    var isMultiCaster = function(classes, arcane_fighter, arcane_specialist) {
+    var isMultiCaster = function(classes, tech_fighter, tech_specialist) {
         var singlecaster = false;
         var multicaster = false;
         _.each(classes, function(multiclass) {
-            var caster = getCasterType(multiclass[0], multiclass[1], arcane_fighter, arcane_specialist) > 0;
+            var caster = getCasterType(multiclass[0], multiclass[1], tech_fighter, tech_specialist) > 0;
             if(caster && singlecaster) {
                 multicaster = true;
             } else if(caster) {
@@ -9239,26 +9184,26 @@
         return multicaster;
     };
 
-    var getCasterType = function(class_string, levels, arcane_fighter, arcane_specialist) {
+    var getCasterType = function(class_string, levels, tech_fighter, tech_specialist) {
         var full = ["scholar","engineer","druid","sorcerer","consular","full"];
         var half = ["warrior","scout","half"];
         if(full.indexOf(class_string) != -1) {
             return 1;
         } else if(half.indexOf(class_string) != -1) {
             return (levels == 1) ? 0 : (1/2);
-        } else if(class_string === "third" || (class_string === "fighter" && arcane_fighter === "1") || (class_string === "specialist" && arcane_specialist === "1")) {
+        } else if(class_string === "third" || (class_string === "fighter" && tech_fighter === "1") || (class_string === "specialist" && tech_specialist === "1")) {
             return (levels == 1 || levels == 2) ? 0 : (1/3);
         } else {
             return 0;
         }
     };
 
-    var checkCasterLevel = function(classes, arcane_fighter, arcane_specialist) {
+    var checkCasterLevel = function(classes, tech_fighter, tech_specialist) {
         console.log("CHECKING CASTER LEVEL");
-        var multicaster = isMultiCaster(classes, arcane_fighter, arcane_specialist);
+        var multicaster = isMultiCaster(classes, tech_fighter, tech_specialist);
         var totalcasterlevel = 0;
         _.each(classes, function(multiclass) {
-            var casterlevel = parseInt(multiclass[1], 10) * getCasterType(multiclass[0], multiclass[1], arcane_fighter, arcane_specialist);
+            var casterlevel = parseInt(multiclass[1], 10) * getCasterType(multiclass[0], multiclass[1], tech_fighter, tech_specialist);
             // Characters with multiple powercasting classes round down the casting level for that class
             // Character with a single powercasting class round up the casting level
             totalcasterlevel = totalcasterlevel + (multicaster ? Math.floor(casterlevel) : Math.ceil(casterlevel));
@@ -9368,7 +9313,7 @@
 
     var update_power_info = function(attr) {
         var update = {};
-        getAttrs(["powercasting_ability","power_dc_mod","globalmagicmod","strength_mod","dexterity_mod","constitution_mod","intelligence_mod","wisdom_mod","charisma_mod"], function(v) {
+        getAttrs(["powercasting_ability","power_dc_mod","globalpowermod","strength_mod","dexterity_mod","constitution_mod","intelligence_mod","wisdom_mod","charisma_mod"], function(v) {
             if(attr && v["powercasting_ability"] && v["powercasting_ability"].indexOf(attr) === -1) {
                 return
             };
@@ -9383,8 +9328,8 @@
             console.log("UPDATING POWER INFO: " + attr);
 
             var ability = parseInt(v[v["powercasting_ability"].substring(2,v["powercasting_ability"].length-2)],10);
-            var power_mod = v["globalmagicmod"] && !isNaN(parseInt(v["globalmagicmod"], 10)) ? parseInt(v["globalmagicmod"], 10) : 0;
-            var atk = v["globalmagicmod"] && !isNaN(parseInt(v["globalmagicmod"], 10)) ? ability + parseInt(v["globalmagicmod"], 10) : ability;
+            var power_mod = v["globalpowermod"] && !isNaN(parseInt(v["globalpowermod"], 10)) ? parseInt(v["globalpowermod"], 10) : 0;
+            var atk = v["globalpowermod"] && !isNaN(parseInt(v["globalpowermod"], 10)) ? ability + parseInt(v["globalpowermod"], 10) : ability;
             var dc = v["power_dc_mod"] && !isNaN(parseInt(v["power_dc_mod"], 10)) ? 8 + ability + parseInt(v["power_dc_mod"], 10) : 8 + ability;
             var itemfields = ["pb_type","pb"];
 
@@ -10758,7 +10703,7 @@
         silentset["custom_class"] = "";
         silentset["cust_classname"] = "";
         //Set up setAttrs to erase some fields
-        clearset["halflingluck_flag"] = "0";
+        clearset["precognition_flag"] = "0";
         clearset["age"] = "";
         clearset["hp"] = "";
         clearset["hp_max"] = "";
@@ -12781,7 +12726,7 @@
             </div>
         </div>
         <div class="choice no_powers">
-            <p class="label">The Arcane is a mystery to you.</p>
+            <p class="label">The Tech is a mystery to you.</p>
             <p>Your character doesn't have powers at this level. Click “Next” to review your character!</p>
         </div>
         <div class="choice yes_powers">
@@ -15559,7 +15504,7 @@
             currentClass = getName("class", mancerdata, true) + getName("subclass", mancerdata, true);
             set["power_info"] = "";
             if((racePowers + classPowers) == 0) {
-                set["power_info"] += '<p>The arcane is a mystery to you.</p>';
+                set["power_info"] += '<p>The tech is a mystery to you.</p>';
                 deleteCharmancerData(["l1-powers"]);
                 powersready = false;
             } else if(prevRace != currentRace || prevClass != currentClass || mancerdata["l1-powers"].values.race_number != racePowers || mancerdata["l1-powers"].values.class_number != classPowers) {
@@ -15586,7 +15531,7 @@
             set["power_info"] = '<p class="sheet-warning">You haven\'t selected your powers!</p>';
             powersready = false
         } else {
-            set["power_info"] = '<p>The arcane is a mystery to you.</p>';
+            set["power_info"] = '<p>The tech is a mystery to you.</p>';
             powersready = false
         }
 
