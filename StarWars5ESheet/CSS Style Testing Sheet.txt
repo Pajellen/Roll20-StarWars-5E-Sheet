@@ -1,0 +1,856 @@
+___
+<div class='classTable wide'>
+
+##### Class Name
+| Level | Proficiency Bonus | Features | Cantrips Known | Spells Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1st | +2 | Something | — | — | — | — | — | — | — | — | — | — | — |
+| 2nd | ─ | ─ | — | — | — | — | — | — | — | — | — | — | — |
+| ... | ─  | ─ | ─ | ─ | ─ | — | — | — | — | — | — | — | — |
+| 20th | ─ | ─ | ─ | ─ | ─ | ─ | ─ | ─ | ─ | — | — | — | — |
+
+</div>
+
+<br>
+
+<div class='classTable'>
+
+##### Class Name
+| Level | Proficiency Bonus | Features | Some Modifier |
+|:---:|:---:|:---|:---:|
+| 1st | +2 | Something | — |
+| 2nd | ─ | ─ | — |
+| ... | ─  | ─ | ─ |
+| 20th | ─ | ─ | ─ |
+
+</div>
+
+## Class Features
+As a class_name, you gain the following class features
+#### Hit Points
+___
+- **Hit Dice:** 1d10 per class_name level
+- **Hit Points at 1st Level:** something
+- **Hit Points at Higher Levels:** something_higher
+
+#### Proficiencies
+___
+- **Armor:** armor
+- **Weapons:** weapons
+- **Tools:** tools
+
+___
+- **Saving Throws:** saving_throws
+- **Skills:** Choose two from skills
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* a item1 or *(b)* item2
+
+<div class='descriptive'>
+ 
+##### Catchy Title
+Useful information
+ 
+</div>
+
+\columnbreak
+
+
+___
+> ## Monster Name
+>*Size, Alignment*
+> ___
+> - **Armor Class** AC
+> - **Hit Points** Hitpoints
+> - **Speed** Speed
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|Str (Mod)|Dex (Mod)|Con (Mod)|Int (Mod)|Wis (Mod)|Cha (Mod)|
+>___
+> - **Saving Throws** saving_throws
+> - **Skills** skills
+> - **Damage Vulnerabilities** damage_vulnerabilities
+> - **Damage Resistances** Resistances
+> - **Damage Immunities** Damage_Immunities
+> - **Condition Immunities** condition_Immunities
+> - **Senses** Senses
+> - **Languages** Languages
+> - **Challenge** Challenge and Xp
+> ___
+>
+> ### Actions
+> ***Multiattack.*** The Creature Name makes Number and type of attacks
+>
+> ***Ability Description.*** *Attack Style:* Attack Bonus to hit, Reach/Range, one target. *Hit:* Damage Damage Type damage
+>
+> ***General Ability Description.*** General Attack Description
+
+\pagebreakNum
+
+
+___
+___
+> ## Monster Name
+>*Size, Alignment*
+> ___
+> - **Armor Class** AC
+> - **Hit Points** Hitpoints
+> - **Speed** Speed
+>___
+>|STR|DEX|CON|INT|WIS|CHA|
+>|:---:|:---:|:---:|:---:|:---:|:---:|
+>|Str (Mod)|Dex (Mod)|Con (Mod)|Int (Mod)|Wis (Mod)|Cha (Mod)|
+>___
+> - **Saving Throws** saving_throws
+> - **Skills** skills
+> - **Damage Vulnerabilities** damage_vulnerabilities
+> - **Damage Resistances** Resistances
+> - **Damage Immunities** Damage_Immunities
+> - **Condition Immunities** condition_Immunities
+> - **Senses** Senses
+> - **Languages** Languages
+> - **Challenge** Challenge and Xp
+> ___
+>
+> ### Actions
+> ***Multiattack.*** The Creature Name makes Number and type of attacks
+>
+> ***Ability Description.*** *Attack Style:* Attack Bonus to hit, Reach/Range, one target. *Hit* Damage Damage Type damage
+>
+> ***General Ability Description.*** General Attack Description
+
+<br>
+
+> ##### Catchy Title
+> Useful Information
+
+<br>
+
+
+#### Telekinetic Wave
+_8th-level light side power_
+___
+- **Prerequisite:** Telekinetic Burst
+- **Casting Time:** 1 action
+- **Range:** 150 feet
+- **Duration:** Instantaneous 
+
+You manipulate the Force in a 60-foot radius centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes 12d6 force damage and is blinded for 1 minute. On a successful save, it takes half as much damage and isn’t blinded by this power.
+
+A creature blinded by this power makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded.
+
+***Force Potency.*** When you cast this power using a force slot of 9th level, the damage increases by 2d6.
+
+\pagebreakNum
+
+
+### Encounters with Beasts
+Genereating encounters with beasts is usually a very simple CR calculation. Most beast types offer more than one CR option, depending on the age of the beast your players encounter.
+
+Every planet has its own unique wildlife. While certain beasts are native to a single planet (like the rancor is native to Dathomir), others have remarkably similar cousins (like the Wampa). Additionally, some planets might have some obscure native beast that isn't replicated here. If you want to have such an encounter, either reskin a currently existing statblock appropriately or try generating your own. 
+
+> If you generate your own monsters, please share! The 
+[Discord](https://discord.gg/zYcPYTu) is a great community with over 100 members that communally works on brewing and reviewing content, and I basically live on it.
+
+\pagebreakNum
+
+<br>
+
+<div style='margin-top:20px'></div>
+ 
+ <font face='scalysans' size='2'>
+ 
+ <center> 
+ 
+ **Spell Save DC** </font> = <font face='scalysans' size='2'> 8 + your proficiency bonus + 
+ 
+ </center>
+ 
+ <div style='margin-top:-8px'></div>
+ 
+ <center> your _AbilityScoreModifier_ modifier </center>
+ 
+ <div style='margin-top:12px'></div>
+ 
+ <center>
+ 
+ **Spell attack modifier** </font> = <font face='scalysans' size='2'> your proficiency bonus + 
+ 
+ </center>
+ 
+ <div style='margin-top:-8px'></div>
+ 
+ <center> your _AbilityScoreModifier_ modifier </center>
+ 
+ </font>
+ 
+<br>
+
+<div class='spellList'>
+
+##### Cantrips (0 Level)
+- Cantrip A
+- Cantrip B
+- Cantrip C
+
+##### 1st Level
+- Spell A
+- Spell B
+- Spell C
+
+##### 2nd Level
+- Spell A
+- Spell B
+- Spell C
+
+\columnbreak
+
+##### 3rd Level
+- Spell A
+- Spell B
+- Spell C
+
+##### 4th Level
+- Spell A
+- Spell B
+- Spell C
+
+##### 5th Level
+- Spell A
+- Spell B
+- Spell C
+
+\columnbreak
+
+##### 6th Level
+- Spell A
+- Spell B
+- Spell C
+
+##### 7th Level
+- Spell A
+- Spell B
+- Spell C
+
+##### 8th Level
+- Spell A
+- Spell B
+- Spell C
+
+\columnbreak
+
+##### 9th Level
+- Spell A
+- Spell B
+- Spell C
+
+</div>
+
+<br>
+
+| d8  | Loot |
+|:---:|:-----------:|
+|  1  | 100gp |
+|  2  | 200gp |
+|  3  | 300gp |
+|  4  | 400gp |
+|  5  | 500gp |
+|  6  | 600gp |
+|  7  | 700gp |
+|  8  | 1000gp |
+
+<br>
+<br>
+<br>
+
+<div style='column-count:2'>
+
+| d8  | Loot |
+|:---:|:-----------:|
+|  1  | 100gp |
+|  2  | 200gp |
+|  3  | 300gp |
+|  4  | 400gp |
+
+| d8  | Loot |
+|:---:|:-----------:|
+|  5  | 500gp |
+|  6  | 600gp |
+|  7  | 700gp |
+|  8  | 1000gp |
+
+</div>
+
+\pagebreakNum
+
+<div class='footnote'>Part 1 | Species</div>
+
+# Chapter 2: Species
+A visit to any of the great cities in the worlds of Star Wars overwhelms the senses. Voices chatter in countless different languages. The smells of cooking in dozens of different cuisines mingle with the odors of crowded streets and poor sanitation. Buildings in myriad architectural styles display the diverse origins of their inhabitants. 
+
+And the people themselves-people of varying size, shape, and color, dressed in a dazzling spectrum of styles and hues-represent many different species, from diminutive Bothans and stalwart Cereans to majestic Twi'Leks and towering Wookiees, mingling among a variety of human ethnicities.
+
+Scattered among the members of these more common species are the true exotics: a hulking Besalisk here, pushing his way through the crowd, and a sly Chiss there, lurking in the shadows with mischief in her eyes. A group of Jawas chatters as one of them activates a clever mechanical toy that moves of its own accord. Zabraks and Devaronians live and work alongside humans, without fully belonging. And there, well out of the sunlight, is a lone Duros-a fugitive from the the Galactic Republic, trying to make his way in a world.
+
+### Choosing a Species
+Humans are the most common people in the worlds of Star Wars, but they live and work alongside Ithorians, Kiffar, Mirialan, and countless other fantastic species. Your character belongs to one of these peoples.
+
+Not every intelligent species of the multiverse is appropriate for a player-controlled adventurer. The most common species vary from planet to planet and system to system. Try to choose species that make sense in your adventuring party and locale. 
+
+Your choice of species affects many different aspects of your character. It establishes fundamental qualities that exist throughout your character's adventuring career. When making this decision, keep in mind the kind of character you want to play. For example, a Bothan could be a good choice for a sneaky rogue, a Wookiee makes a tough berserker, and a Twi'lek can be a master of the Force.
+
+\columnbreak
+
+Your character species not only affects your ability scores and traits but also provides the cues for building your character's story. Each species's description in this chapter includes information to help you roleplay a character of that species, including personality, physical appearance, features of society, and special alignment tendencies. These details are suggestions to help you think about your character; adventurers can deviate widely from the norm for their species.
+
+It's worthwhile to consider why your character is different, as a helpful way to think about your character's background and personality.
+
+### Special Traits
+The description of each species includes special traits that are common to members of that species. The following entries appear among the traits of most species.
+
+#### Ability Score Increase
+Every species increases one or more of a character's ability scores.
+
+#### Age
+The age entry notes the age when a member of the species is considered an adult, as well as the species's expected lifespan. This information can help you decide how old your character is at the start of the game. You can choose any age for your character, which could provide an explanation for some of your ability scores. For example, if you play a young or very old character, your age could explain a particularly low Strength or Constitution score, while advanced age could account for a high Intelligence or Wisdom.
+
+#### Alignment
+Most species have tendencies toward certain alignments, described in this entry. These are not binding for player characters, but considering why your Sith follows the light side, for example, in defiance of the Sith Empire can help you better define your character.
+
+<img src='https://www.gmbinder.com/images/aGfQe3g.png' style='position:absolute; bottom:33px; right:30px; width:750px' />
+
+\pagebreakNum
+
+#### Size
+Characters of most species are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few species are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding heavy weapons and heavy shields, as explained in chapter 6.
+
+#### Speed
+Your speed determines how far you can move when traveling (chapter 8) and fighting (chapter 9).
+
+#### Languages
+By virtue of your species, your character can speak, read, and write certain languages. Each species typically speaks, or at least understands, Galactic Basic as well as having a unique language of their own.
+
+
+\pagebreakNum
+
+___
+> ## Ardennian
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Ardennian|
+> |***Hair Color***|  |Brown to gray|
+> |***Eye Color***|  |Brown or black|
+> |***Distinctions***|  |Four arms, fur-covered, prehensile feet|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |3'6"|+2d8"|
+> |***Weight***|  |60 lb.|x(1d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Ardennia|
+> |***Language***|  |Adrennian|
+
+### Biology and Appearance
+Ardennians are sentient humanoid simians hailing from the tropical paradise of Ardennia. They are covered in fur from head to their wrists and ankles, with brown and grey being the most common fur colors. Ardennians sport four arms and prehensile feet. All six of their limbs are equally dexterous.
+
+### Society and Culture
+The Ardennian people themselves are a friendly communal species that are well known for welcoming visitors and inviting newcomers to traditional feasts and dances on the sandy beaches of Ardennia. Rural Ardiennan’s live in modern tree-villages in the thick, dim jungle canopy on the majority of the islands. Ground level accommodations are available for off-world visitors even in the smaller villages. Most off-worlders stay in the large modern resort complexes which boast having miles of private beaches or in the modern cities. Several large cities exist, scattered around the world, which typically encompass an entire island or a series of smaller islands joined together.
+
+Ardennia’s distance from the main hyperlanes makes it one of the lesser-known vacation destinations, but it's a popular one for those who don’t mind the extra travel time. Some affluent visitors prefer the solitude that Ardennia offers, and occasionally end up purchasing one of the smaller islands to build their own home. Ardennia is notable for having the most beach per square meter in the galaxy. 
+
+### Names
+Ardennian’s names are typically concise and rarely more than two syllables, with a familal surname.
+
+**Male Names.** Rio, Jakar, Hul, Lup, Quil, Jerno
+
+**Female Names.** Rac, Bras, Nuc, Kua, Karta, Sanya
+
+**Surnames.** Durant, Betal, Rambuan, Jabut, Karon, Pind
+
+\columnbreak
+
+<div style='margin-top:260px'></div>
+
+### Ardennian Traits
+As an Ardennian, you have the following special traits.
+
+***Ability Score Increase.*** Your Dexterity score increases by 2, and your Charisma score increases by 1.
+
+***Age.*** Ardennians reach adulthood in their late teens and live less than a century.
+
+***Alignment.*** Ardennians' peaceful nature causes them to tend toward the light side, though there are exceptions.
+
+***Size.*** Ardennians typically stand 4 and a half to 5 feet tall and weigh around 70 lbs. Regardless of your position in that range, your size is Small.
+
+***Speed.*** Your base walking speed is 25 feet.
+
+***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Four-Armed.*** Ardennians have four arms which they can use independently of one another. While you may hold four one-handed weapons, two two-handed weapons, or some variation thereof, you can still only make a number of attacks as determined by your class features.
+
+***Jungle Dweller.*** Growing up in the tree-villages of Ardennia has left an impact. You don't treat jungle terrain as difficult terrain.
+
+***Mask of the Wild.*** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.
+
+***Prehensile Feet..*** You have supreme control over your feet and can use them to manipulate objects as well as your hands.
+
+***Strong-Legged.*** When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.
+
+***Treeclimber.*** You have a climbing speed of 25 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Ardennian. Ardennian has a bubbly, energizing tone to it.
+
+<img src='https://www.gmbinder.com/images/y7JaqgD.png' style='position:absolute; top:6px; right:60px; width:280px' />
+
+<div class='footnote'>Part 1 | Species</div>
+
+\pagebreakNum
+
+___
+> ## Aqualish
+> ___
+> #### Visual Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Skin Color***|  |Black, blue, green, or red|
+> |***Hair Color***|  |Black, brown, or gray|
+> |***Eye Color***|  |Black, blue, red, or brown|
+> |***Distinctions***|  |Tusks, belligerent personalities, brawny stature|
+> ___
+> #### Physical Characteristics
+> |||||
+> |:--|:--|:--:|:--:|
+> |***Height***|  |5'5"|+2d10"|
+> |***Weight***|  |140 lb.|x(2d4) lb.|
+> ___
+> #### Sociocultural Characteristics
+> ||||
+> |:--|:--|:--|
+> |***Homeworld***|  |Ando|
+> |***Language***|  |Aqualish|
+
+### Biology and Appearance
+An amphibious species native to the planet Ando, the Aqualish people have two facial tusks which curve down over their mouths; a trait which added to their appearance as arachnids. These facial tusks are highly sensitive to heat and cold and are used for cracking open the hard shells of shellfish or burrowing through the swampy loam of their homeworld. Having finned hands and two bulbous black eyes, Aqualish are unable to manipulate most machinery or equipment developed by the galaxy's many species which designed these tools for beings with digits. As a result, Aqualish tend to remain on their homeworld. Aqualish are well known for their hair-trigger tempers that flare without reason.
+
+While Force-sensitive Aqualish are rare, members of the species have trained as both Sith and Jedi, though they typically gravitate toward the former.
+
+### Society and Culture
+The Aqualish hate the image they have in the galaxy as thugs, regardless of its veracity, and blame it on any- and everyone else. Because of this, the species are considered pariahs on Ando, which has a lower population of Aqualish than the galaxy itself. All Aqualish speak mutually intelligible dialects of the same language. Quarrelsome and thug-like, the Aqualish culture revolved around aggression and toughness, with diplomacy being one of their weakest attributes.
+
+### Names
+Aqualish names are intended to sound strong. Surnames are not familial, but are chosen by each individual Aqualish.
+
+**Male Names.** Bung, Gu, Opege, Soni, Tubop
+
+**Female Names.** Cestirki, Duni, Iftu, Sifre, Umi
+
+**Surnames.** Dogomurra, Julo, Kronem, Nidoal, Utix
+
+\columnbreak
+
+<div style='margin-top:400px'></div>
+
+### Aqualish Traits
+As an Aqualish, you have the following special traits.
+
+***Ability Score Increase.*** Your Strength score increases by 2, and your Charisma score increases by 1.
+
+***Age.*** Aqualish reach adulthood in their late teens and live less than a century.
+
+***Alignment.*** Aqualish' aggressive personalities cause them to tend toward the dark side, though there are exceptions.
+
+***Size.*** Aqualish stand between 6 and 7 feet tall and weigh around 190 lbs. Regardless of your position in that range, your size is Medium.
+
+***Speed.*** Your base walking speed is 30 feet.
+
+***Arms Dealers.*** Whenever you make an Charisma (Persuasion) check related to buying or selling weapons, you are considered proficient in the Persuasion skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+
+***Aggressive.*** As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.
+
+***Darkvision.*** You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+
+***Menacing.*** You gain proficiency in the Intimidation skill.
+
+***Swim.*** You have a swimming speed of 30 feet.
+
+***Languages.*** You can speak, read, and write Galactic Basic and Aqualish. Aqualish is a harsh, guttural language. It's rare that other species bother to learn it unless they regularly interact with Aqualish.
+
+<img src='https://www.gmbinder.com/images/vXcfGpp.png' style='position:absolute; top:26px; right:90px; width:230px' />
+
+<div class='footnote'>Part 1 | Species</div>
+
+<div class='pageNumber auto'></div>
+
+\pagebreakNum
+
+### Droid Companion
+Also at 3rd level, you gain the aid of a droid companion, either through construction or purchase. If you choose to construct your droid companion, you must have astrotech's tools, you must spend half the cost of the droid in materials, and you must spend a number of days equal to the droid's cost divided by 100. The character is assumed to work for 8 hours each of those days.
+
+Choose a droid companion, which is detailed at the end of this discipline. Over the course of 1 hour, which can be done during a short rest, you can expend 500 credits worth of materials and circuitry to interface your wristpad with that droid. It then becomes a valid target of the *tracker droid interface* tech power.
+
+If your droid is irreparable destroyed, or you want to interface with a different droid, you can spend an additional 250 credits and 1 hour to change the target of this feature. You may only have one droid companion at a time.
+
+Your droid gains a variety of benefits while it is interfaced with you:
+- The droid obeys your commands as best it can. It rolls for initiative like any other creature, but you determine its actions, decisions, attitudes, and so on. If you are incapacitated or absent, your droid acts on its own.
+- Your droid's level equals your engineer level, and for each engineer level you gain after 3rd, your droid companion gains an additional hit die and increases its hit points accordingly.
+- Your droid has the proficiency bonus of a player character of the same level.
+- Whenever you gain the Ability Score Improvement class feature, your droid’s abilities also improve. Your droid can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your droid can’t increase an ability score above 20 using this feature unless its description specifies otherwise.
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Russo+One|Open+Sans|Bungee+Inline');
+    
+	.phb {
+        background: #afc6d6;
+        background: -moz-linear-gradient(left, #afc6d6 0%, #d6d6d6 30%, #d6d6d6 70%, #afc6d6 100%);
+        background: -webkit-linear-gradient(left, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
+        background: linear-gradient(to right, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afc6d6', endColorstr='#afc6d6',GradientType=1 );
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        line-height: 1em;
+    }
+    
+    .phb p {
+        font-size: 0.9em;
+        line-height: 1.2em;
+    }
+    
+    .phb ul {
+        font-size: 0.85em;
+    }
+    
+    .phb h1,.phb h2,.phb h3,.phb h4 {
+	    color: #c40f0f;
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+	}
+    
+    .phb h1+p::first-letter {
+	    color: #000000;
+        font-family: 'Bungee Inline', cursive;
+
+        font-size: 6em;
+        line-height: 1em;
+        margin-right: 4px;
+	}
+	
+    .phb h1 {
+        font-size: 0.7cm;
+    }
+    
+    .phb h2 {
+        font-size: 0.5cm
+    }
+
+    .phb h3 {
+        font-size: .4cm;
+        border-bottom: 2px solid #0d99cc
+    }
+
+    .phb h4 {
+        font-size: .35cm
+    }
+
+    .phb h5 {
+        font-size: .4cm;
+    }
+    
+    .phb h4+p+hr+ul, .phb h4+hr+ul, .phb h4+hr+ul+hr+ul {
+        font-size: 0.85em;
+    }
+    
+    .phb .toc a {
+    	color: #e6e6e6;
+	}
+    
+    .phb:after {
+    	background-image: none;
+        border-bottom: 2px solid #0d99cc;
+		bottom: 16px
+	}
+    
+    .phb blockquote {
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 1em;
+        padding: 5px 10px;
+        background-color: #bdc8cc;
+        border: 1px solid #0d99cc;
+        border-image: none;
+        box-shadow: 0px 0px 20px rgba(13, 153, 204, 0.5);
+        color: #000000;
+        font-size: 1em;
+    }
+    
+    .phb blockquote h4 {
+        color: #000000;
+    }
+    
+    .phb blockquote p, .phb blockquote ul {
+        font-size: 0.85em;
+        line-height: 1.12em
+    }
+    
+    .phb hr+section blockquote {
+        position: relative;
+        padding-top: 15px;
+        background-color: #bdc8cc;
+        border-top: 0.2em solid #0d99cc;
+        border-bottom: 0.2em solid #0d99cc;
+        border-left: 0;
+        border-right: 0;
+        box-shadow: 0 0 1.5em rgba(13, 153, 204, 0.5);
+        background-image: none;
+        border-image: none;
+        color: #000000;
+    }
+    
+    
+    .phb hr+section blockquote h2 {
+        margin-top: -8px;
+        margin-bottom: 0;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote h2+p {
+        padding-bottom: 0;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote h3 {
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        border-bottom: 1px solid #000000;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote h4 {
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote hr+ul {
+        color: #000000;
+        font-size: 0.9em;
+    }
+    
+    .phb hr+section blockquote ul {
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 1em;
+        font-size: .352cm;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote section section ul li {
+        text-indent: -1em;
+        list-style-type: none;
+        margin-bottom: 7px;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote ul em {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote ul strong {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote hr+table {
+        margin: 0;
+        column-span: 1;
+        background-color: transparent;
+        border-style: none;
+        border-image: none;
+        -webkit-column-span: 1;
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote hr+table tbody tr:nth-child(odd),.phb hr+section blockquote hr+table tbody tr:nth-child(even) {
+        background-color: transparent
+    }
+    
+    .phb hr+section blockquote table {
+        color: #000000;
+    }
+    
+    .phb hr+section blockquote p+p {
+        margin-top: 0;
+        text-indent: 0;
+        margin-bottom: 7px
+    }
+    
+    .phb hr+section blockquote hr {
+        visibility: visible;
+        height: 5px;
+        margin: 4px 0;
+        background-color: #0d99cc;
+        background-image: none;
+        background-size: 100% 100%;
+        border: none
+    }
+    
+    .phb hr+hr+section blockquote {
+        column-count: 2;
+        column-fill: auto;
+        column-gap: 1cm;
+        column-width: 7.68cm;
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        -webkit-column-width: 7.68cm;
+        -moz-column-width: 7.68cm;
+        -webkit-column-gap: 1cm;
+        -moz-column-gap: 1cm
+    }
+    
+    .phb .pageNumber {
+        color: #c40f0f;
+    }
+    
+    .phb .footnote {
+        color: #c40f0f;
+        bottom: 25px;
+    }
+    
+    .phb:nth-child(even):after {
+        background-image: none;
+    }
+    
+    
+    .phb .descriptive {
+        color: #000000;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.95em;
+        background-color: #bdc8cc;
+        border-image: none;
+        border-left: 0.2em solid #0d99cc;
+        border-right: 0.2em solid #0d99cc;
+        border-top: 0;
+        border-bottom: 0;
+        box-shadow: 0 0 1.5em rgba(13, 153, 204, 0.5);
+        padding: 0.25em 1em;
+    }
+    
+    .phb .descriptive p {
+        font-family: 'Open Sans', sans-serif;
+        display: block;
+        padding-bottom: 0;
+        line-height: 1.25em;
+        padding: 0 1em 0 2em;
+        text-indent: -1em;
+    }
+    
+    .phb .descriptive p+p {
+        padding-top: .4em
+    }
+    
+    .phb .descriptive em {
+        font-style: italic
+    }
+    
+    .phb .descriptive strong {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.02em
+    }
+    
+    .phb pre+.descriptive {
+        margin-top: .7em;
+    }
+    
+    .phb p+p {
+        text-indent: 1em;
+    }
+    
+    .phb table {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
+        width: 100%;
+        margin-bottom: 1em;
+        line-height: 1em;
+    }
+    
+    .phb table em {
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+    }
+    
+    .phb table strong {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+    }
+    
+    .phb table thead {
+        font-weight: 800;
+    }
+    
+    .phb table thead th {
+        font-size: 0.875em;
+    }
+    
+    .phb table tbody tr td {
+        padding: .3em .1em;
+        font-size: 0.8em;
+        min-width: 2.5em;
+    }
+    
+    .phb table tbody tr:nth-child(odd) {
+        background-color: #c9d6db;
+    }
+    
+    .phb table tbody tr:nth-child(even) {
+        background-color: #bdc8cc;
+    }
+    
+    .phb .classTable {
+        background-color: #bdc8cc;
+        border-top: 0.2em solid #0d99cc;
+        border-bottom: 0.2em solid #0d99cc;
+        border-left: 0;
+        border-right: 0;
+        border-image: none;
+        padding: 1em;
+        font-size: 1em;
+        box-shadow: 0px 0px 20px rgba(13, 153, 204, 0.5);
+    }
+    
+    .phb .classTable h5 {
+        font-family: 'Russo One', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    code {
+        padding: 2px 4px;
+        font-size: 90%;
+        color: #2d2d2d;
+        background-color: #bdc8cc;
+        border-radius: 2px;
+        max-width: 95%;
+        word-break: break-all;
+    }
+    
+    a:-webkit-any-link {
+    	color: #cc6d0e;
+	}
+	
+	.phb:after { content: ""; }
+</style>
