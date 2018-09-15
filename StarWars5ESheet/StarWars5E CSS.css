@@ -12,7 +12,15 @@
 
 .sheet-container {
     width: 750px;
-    background-color: white;
+    background: #afc6d6;
+    background: -moz-linear-gradient(left, #afc6d6 0%, #d6d6d6 30%, #d6d6d6 70%, #afc6d6 100%);
+    background: -webkit-linear-gradient(left, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
+    background: linear-gradient(to right, #afc6d6 0%,#d6d6d6 30%,#d6d6d6 70%,#afc6d6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afc6d6', endColorstr='#afc6d6',GradientType=1 );
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 1em;
     position: relative;
 }
 
@@ -2760,7 +2768,7 @@ span.sheet-powerconcentration
 {
     width: 188px;
     border: 1px solid;
-    background-color: #ffffff;
+    background-color: #bdc8cc;
     padding: 5px;
 }
 
@@ -2870,7 +2878,7 @@ span.sheet-powerconcentration
 .sheet-rolltemplate-npcdmg .inlinerollresult,
 .sheet-rolltemplate-traits .inlinerollresult
 {
-    background-color: #ffffff;
+    background-color: #bdc8cc;
     border: none;
 }
  
